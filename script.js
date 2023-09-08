@@ -34,7 +34,7 @@ const lookup = {
 function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
-	for (let index = 0; index < decodedArr.length(); index++) {
+	for (let index = 0; index < decodedArr.length; index++) {
 		let i=(Integer)decodedArr[index]+13;
 		decodedArr[index]=(String)i;
 		if(i>90)
